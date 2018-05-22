@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D01BBDB20B3ECEE00D661F8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01BBDA20B3ECEE00D661F8 /* CardView.swift */; };
+		3D01BBDE20B3F09C00D661F8 /* extensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01BBDD20B3F09C00D661F8 /* extensionUIColor.swift */; };
+		3D01BBF320B4050200D661F8 /* CourseInfoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01BBF120B4050200D661F8 /* CourseInfoViewCell.swift */; };
+		3D01BBF420B4050200D661F8 /* CourseInfoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D01BBF220B4050200D661F8 /* CourseInfoViewCell.xib */; };
 		3D3A788220B2979200AE0FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A788120B2979200AE0FFC /* AppDelegate.swift */; };
-		3D3A788420B2979200AE0FFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A788320B2979200AE0FFC /* ViewController.swift */; };
-		3D3A788720B2979200AE0FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A788520B2979200AE0FFC /* Main.storyboard */; };
 		3D3A788920B2979200AE0FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A788820B2979200AE0FFC /* Assets.xcassets */; };
-		3D3A788C20B2979200AE0FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A788A20B2979200AE0FFC /* LaunchScreen.storyboard */; };
+		3D3A789420B29FC700AE0FFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A789320B29FC700AE0FFC /* Images.xcassets */; };
+		3D3A789820B2E08F00AE0FFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A789720B2E08F00AE0FFC /* ViewController.swift */; };
+		3D3B8BA720B3A1B70029A8F9 /* mineStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3B8BA620B3A1B70029A8F9 /* mineStoryboard.storyboard */; };
+		6A39BA44E501732511037B7E /* Pods____2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2236895B1E531050D5988BC8 /* Pods____2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D3A787E20B2979200AE0FFC /* zjyicve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zjyicve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2236895B1E531050D5988BC8 /* Pods____2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D01BBDA20B3ECEE00D661F8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3D01BBDD20B3F09C00D661F8 /* extensionUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionUIColor.swift; sourceTree = "<group>"; };
+		3D01BBF120B4050200D661F8 /* CourseInfoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseInfoViewCell.swift; sourceTree = "<group>"; };
+		3D01BBF220B4050200D661F8 /* CourseInfoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseInfoViewCell.xib; sourceTree = "<group>"; };
+		3D3A787E20B2979200AE0FFC /* 云课堂2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "云课堂2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3A788120B2979200AE0FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D3A788320B2979200AE0FFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3D3A788620B2979200AE0FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D3A788820B2979200AE0FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3D3A788B20B2979200AE0FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D3A788D20B2979200AE0FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3A789320B29FC700AE0FFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "云课堂2/Images.xcassets"; sourceTree = "<group>"; };
+		3D3A789720B2E08F00AE0FFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D3B8BA620B3A1B70029A8F9 /* mineStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = mineStoryboard.storyboard; sourceTree = "<group>"; };
+		E6190E8A0A7A22DF6DF965D1 /* Pods-云课堂2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-云课堂2.release.xcconfig"; path = "Pods/Target Support Files/Pods-云课堂2/Pods-云课堂2.release.xcconfig"; sourceTree = "<group>"; };
+		F2358A0D34E69E84FA43D929 /* Pods-云课堂2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-云课堂2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-云课堂2/Pods-云课堂2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,24 +41,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A39BA44E501732511037B7E /* Pods____2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D01BBD720B3EC9400D661F8 /* cardView */ = {
+			isa = PBXGroup;
+			children = (
+				3D01BBDA20B3ECEE00D661F8 /* CardView.swift */,
+			);
+			path = cardView;
+			sourceTree = "<group>";
+		};
+		3D01BBDC20B3F07400D661F8 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				3D01BBDD20B3F09C00D661F8 /* extensionUIColor.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		3D01BBEB20B402AD00D661F8 /* teacher */ = {
+			isa = PBXGroup;
+			children = (
+				3D01BBEE20B402CC00D661F8 /* controller */,
+				3D01BBED20B402C000D661F8 /* view */,
+				3D01BBEC20B402B700D661F8 /* model */,
+			);
+			path = teacher;
+			sourceTree = "<group>";
+		};
+		3D01BBEC20B402B700D661F8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3D01BBED20B402C000D661F8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3D01BBF120B4050200D661F8 /* CourseInfoViewCell.swift */,
+				3D01BBF220B4050200D661F8 /* CourseInfoViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3D01BBEE20B402CC00D661F8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		3D3A787520B2979200AE0FFC = {
 			isa = PBXGroup;
 			children = (
+				3D3A789320B29FC700AE0FFC /* Images.xcassets */,
 				3D3A788020B2979200AE0FFC /* zjyicve */,
 				3D3A787F20B2979200AE0FFC /* Products */,
+				40EF3B4AC8A14FE1A1BE4DF0 /* Pods */,
+				7F2FB53B720F90A04B6F1457 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		3D3A787F20B2979200AE0FFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D3A787E20B2979200AE0FFC /* zjyicve.app */,
+				3D3A787E20B2979200AE0FFC /* 云课堂2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,34 +119,56 @@
 		3D3A788020B2979200AE0FFC /* zjyicve */ = {
 			isa = PBXGroup;
 			children = (
+				3D01BBEB20B402AD00D661F8 /* teacher */,
+				3D01BBDC20B3F07400D661F8 /* extension */,
+				3D01BBD720B3EC9400D661F8 /* cardView */,
 				3D3A788120B2979200AE0FFC /* AppDelegate.swift */,
-				3D3A788320B2979200AE0FFC /* ViewController.swift */,
-				3D3A788520B2979200AE0FFC /* Main.storyboard */,
 				3D3A788820B2979200AE0FFC /* Assets.xcassets */,
-				3D3A788A20B2979200AE0FFC /* LaunchScreen.storyboard */,
 				3D3A788D20B2979200AE0FFC /* Info.plist */,
+				3D3A789720B2E08F00AE0FFC /* ViewController.swift */,
+				3D3B8BA620B3A1B70029A8F9 /* mineStoryboard.storyboard */,
 			);
 			path = zjyicve;
+			sourceTree = "<group>";
+		};
+		40EF3B4AC8A14FE1A1BE4DF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2358A0D34E69E84FA43D929 /* Pods-云课堂2.debug.xcconfig */,
+				E6190E8A0A7A22DF6DF965D1 /* Pods-云课堂2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F2FB53B720F90A04B6F1457 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2236895B1E531050D5988BC8 /* Pods____2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D3A787D20B2979200AE0FFC /* zjyicve */ = {
+		3D3A787D20B2979200AE0FFC /* 云课堂2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D3A789020B2979200AE0FFC /* Build configuration list for PBXNativeTarget "zjyicve" */;
+			buildConfigurationList = 3D3A789020B2979200AE0FFC /* Build configuration list for PBXNativeTarget "云课堂2" */;
 			buildPhases = (
+				4588B0F7278EEF5EF968F345 /* [CP] Check Pods Manifest.lock */,
 				3D3A787A20B2979200AE0FFC /* Sources */,
 				3D3A787B20B2979200AE0FFC /* Frameworks */,
 				3D3A787C20B2979200AE0FFC /* Resources */,
+				A595A39FB776029D892459CF /* [CP] Embed Pods Frameworks */,
+				7E5314A745D1908E8828CEEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = zjyicve;
+			name = "云课堂2";
 			productName = zjyicve;
-			productReference = 3D3A787E20B2979200AE0FFC /* zjyicve.app */;
+			productReference = 3D3A787E20B2979200AE0FFC /* 云课堂2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +200,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D3A787D20B2979200AE0FFC /* zjyicve */,
+				3D3A787D20B2979200AE0FFC /* 云课堂2 */,
 			);
 		};
 /* End PBXProject section */
@@ -123,44 +210,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D3A788C20B2979200AE0FFC /* LaunchScreen.storyboard in Resources */,
+				3D3A789420B29FC700AE0FFC /* Images.xcassets in Resources */,
 				3D3A788920B2979200AE0FFC /* Assets.xcassets in Resources */,
-				3D3A788720B2979200AE0FFC /* Main.storyboard in Resources */,
+				3D3B8BA720B3A1B70029A8F9 /* mineStoryboard.storyboard in Resources */,
+				3D01BBF420B4050200D661F8 /* CourseInfoViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4588B0F7278EEF5EF968F345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-云课堂2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E5314A745D1908E8828CEEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-云课堂2/Pods-云课堂2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A595A39FB776029D892459CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-云课堂2/Pods-云课堂2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-云课堂2/Pods-云课堂2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D3A787A20B2979200AE0FFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D3A788420B2979200AE0FFC /* ViewController.swift in Sources */,
+				3D3A789820B2E08F00AE0FFC /* ViewController.swift in Sources */,
+				3D01BBF320B4050200D661F8 /* CourseInfoViewCell.swift in Sources */,
+				3D01BBDB20B3ECEE00D661F8 /* CardView.swift in Sources */,
 				3D3A788220B2979200AE0FFC /* AppDelegate.swift in Sources */,
+				3D01BBDE20B3F09C00D661F8 /* extensionUIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3D3A788520B2979200AE0FFC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D3A788620B2979200AE0FFC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3D3A788A20B2979200AE0FFC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D3A788B20B2979200AE0FFC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3D3A788E20B2979200AE0FFC /* Debug */ = {
@@ -272,11 +406,14 @@
 		};
 		3D3A789120B2979200AE0FFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2358A0D34E69E84FA43D929 /* Pods-云课堂2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5NH89M4VFM;
 				INFOPLIST_FILE = zjyicve/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.66ykt.66studentzhihui.zjyicve;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +424,14 @@
 		};
 		3D3A789220B2979200AE0FFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6190E8A0A7A22DF6DF965D1 /* Pods-云课堂2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5NH89M4VFM;
 				INFOPLIST_FILE = zjyicve/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.66ykt.66studentzhihui.zjyicve;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,7 +452,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D3A789020B2979200AE0FFC /* Build configuration list for PBXNativeTarget "zjyicve" */ = {
+		3D3A789020B2979200AE0FFC /* Build configuration list for PBXNativeTarget "云课堂2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D3A789120B2979200AE0FFC /* Debug */,
