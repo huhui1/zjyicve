@@ -1,0 +1,6 @@
+framework module Pods____2 {
+  umbrella header "Pods-云课堂2-umbrella.h"
+
+  export *
+  module * { export * }
+}
