@@ -31,7 +31,7 @@
         <!--View Controller-->
         <scene sceneID="nLK-BE-JSd">
             <objects>
-                <viewController id="gtQ-eY-XuW" sceneMemberID="viewController">
+                <viewController id="gtQ-eY-XuW" customClass="ViewController" customModule="云课堂2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IH2-6i-baN"/>
                         <viewControllerLayoutGuide type="bottom" id="xFT-0d-68a"/>
@@ -42,7 +42,20 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gox-9x-hfW" customClass="CardView" customModule="云课堂2" customModuleProvider="target">
                                 <rect key="frame" x="8" y="74" width="359" height="126"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGV-Pe-iR9">
+                                        <rect key="frame" x="72" y="29" width="161" height="67"/>
+                                        <state key="normal" title="公告"/>
+                                        <connections>
+                                            <action selector="tapBtn_Notice:" destination="gtQ-eY-XuW" eventType="touchUpInside" id="wyG-po-W0m"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="cGV-Pe-iR9" firstAttribute="centerY" secondItem="Gox-9x-hfW" secondAttribute="centerY" id="apK-g9-H4R"/>
+                                    <constraint firstItem="cGV-Pe-iR9" firstAttribute="centerX" secondItem="Gox-9x-hfW" secondAttribute="centerX" id="rQ4-Eh-6l9"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fp0-aI-H9q" customClass="CardView" customModule="云课堂2" customModuleProvider="target">
                                 <rect key="frame" x="20" y="234" width="335" height="128"/>

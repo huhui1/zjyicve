@@ -10,8 +10,11 @@ import UIKit
 
 class CourseInfoViewCell: UITableViewCell {
 
+
+    @IBOutlet weak var contenCardView: CardView!
     override func awakeFromNib() {
         super.awakeFromNib()
+        self.contenCardView.frame = self.bounds
         // Initialization code
     }
 

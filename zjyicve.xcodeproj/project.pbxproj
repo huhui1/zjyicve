@@ -11,6 +11,8 @@
 		3D01BBDE20B3F09C00D661F8 /* extensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01BBDD20B3F09C00D661F8 /* extensionUIColor.swift */; };
 		3D01BBF320B4050200D661F8 /* CourseInfoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01BBF120B4050200D661F8 /* CourseInfoViewCell.swift */; };
 		3D01BBF420B4050200D661F8 /* CourseInfoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D01BBF220B4050200D661F8 /* CourseInfoViewCell.xib */; };
+		3D01BBF720B4146600D661F8 /* NoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01BBF520B4146600D661F8 /* NoticeView.swift */; };
+		3D01BBF820B4146600D661F8 /* NoticeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D01BBF620B4146600D661F8 /* NoticeView.xib */; };
 		3D3A788220B2979200AE0FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A788120B2979200AE0FFC /* AppDelegate.swift */; };
 		3D3A788920B2979200AE0FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A788820B2979200AE0FFC /* Assets.xcassets */; };
 		3D3A789420B29FC700AE0FFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A789320B29FC700AE0FFC /* Images.xcassets */; };
@@ -25,6 +27,8 @@
 		3D01BBDD20B3F09C00D661F8 /* extensionUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionUIColor.swift; sourceTree = "<group>"; };
 		3D01BBF120B4050200D661F8 /* CourseInfoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseInfoViewCell.swift; sourceTree = "<group>"; };
 		3D01BBF220B4050200D661F8 /* CourseInfoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseInfoViewCell.xib; sourceTree = "<group>"; };
+		3D01BBF520B4146600D661F8 /* NoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeView.swift; sourceTree = "<group>"; };
+		3D01BBF620B4146600D661F8 /* NoticeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeView.xib; sourceTree = "<group>"; };
 		3D3A787E20B2979200AE0FFC /* 云课堂2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "云课堂2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3A788120B2979200AE0FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D3A788820B2979200AE0FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 			children = (
 				3D01BBF120B4050200D661F8 /* CourseInfoViewCell.swift */,
 				3D01BBF220B4050200D661F8 /* CourseInfoViewCell.xib */,
+				3D01BBF520B4146600D661F8 /* NoticeView.swift */,
+				3D01BBF620B4146600D661F8 /* NoticeView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D01BBF820B4146600D661F8 /* NoticeView.xib in Resources */,
 				3D3A789420B29FC700AE0FFC /* Images.xcassets in Resources */,
 				3D3A788920B2979200AE0FFC /* Assets.xcassets in Resources */,
 				3D3B8BA720B3A1B70029A8F9 /* mineStoryboard.storyboard in Resources */,
@@ -286,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D01BBF720B4146600D661F8 /* NoticeView.swift in Sources */,
 				3D3A789820B2E08F00AE0FFC /* ViewController.swift in Sources */,
 				3D01BBF320B4050200D661F8 /* CourseInfoViewCell.swift in Sources */,
 				3D01BBDB20B3ECEE00D661F8 /* CardView.swift in Sources */,
